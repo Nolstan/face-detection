@@ -1,0 +1,9 @@
+5️⃣ Why every step is important
+Step	Purpose
+video.read()	Captures a frame from the webcam; without it, you have no video.
+ret	Checks if the frame was captured successfully; prevents errors.
+cv2.imshow()	Shows the frame in a window; without it, you can’t see the video.
+cv2.waitKey()	Lets the window refresh and detects key presses; without it, window may freeze.
+K == ord('q')	Allows you to stop the loop safely; otherwise it would run forever.
+video.release()	Turns off the webcam; prevents it from staying busy.
+cv2.destroyAllWindows()	Closes all windows; keeps your system clean.
